@@ -1,0 +1,134 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font-family: "open sans", arial, sans-serif;
+}
+
+body{
+	background-color: #009E92;
+}
+
+.container{
+	max-width: auto;
+	margin: 0 auto;
+}
+
+.container2{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.head{
+	background-color: #009E93;
+	position: fixed;
+	top: 0px;
+	width:100%;
+}
+
+img{
+	margin-top: 2%;
+}
+
+nav{
+	display: inline-block;
+	position: relative;
+	width: auto;
+	height: 64px;
+	vertical-align: middle;
+	right: -364px;
+	top: -36px;
+	margin: 0 auto;
+}
+
+ul{
+	height: 64px;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+}
+
+li > a{
+	text-transform: uppercase;
+	font-family: "open sans", arial, sans-serif;
+	font-weight: bold;
+	height: 64px;
+	line-height: 64px;
+	color: white;
+	padding: 22px 22px;
+}
+
+li > a:hover{
+	color: #009E92;
+	background-color: white;
+}
+
+.video{
+	background-color: white;
+	margin-top: 128px;
+}
+
+.pres > h1{
+	margin: 20 auto;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.pres > p{
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
+.pres{
+	padding: 25px 0px;
+}
+
+.goal{
+	padding: 25px 0px;
+	background-color: white;
+}
+
+.goal > h2{
+	margin: 20 auto;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.goal > p{
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer{
+	padding: 25px 0px;
+}
+
+footer > p{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+footer p a{
+	color: white;
+	text-transform: uppercase;
+}
+
+.social{
+	margin: 0 auto;
+	width: 200px;
+	padding: 20 20 20 20;
+}
+
+.social a{
+	margin-left: 30px;
+}
+
+.social a i{
+	font-size: 32px;
+	margin: 20px;
+}
